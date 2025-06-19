@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎭 Professional Profile Dashboard
 
-## Getting Started
+A responsive, role-based Professional Profile Dashboard built with **Next.js**, **React**, and **Tailwind CSS**. The dashboard presents a clean and interactive layout suitable for showcasing professional experiences, ideal for musicians, artists, or other professionals.
 
-First, run the development server:
+## 🚀 Live Demo
+
+[https://interview-nine-pink.vercel.app/](https://interview-nine-pink.vercel.app/)
+
+> _Note: This project was intended to be deployed on Netlify, but due to persistent signup issues (see screenshot), it has been deployed on **Vercel**, which is officially supported by the creators of Next.js._
+
+---
+
+## ✨ Features
+
+- **Top Navigation Bar**
+  - Dropdown menu to switch roles (e.g., Church Singer, Music Director)
+  - “Book Now” button with form modal
+  - Price label display
+
+- **Sidebar Navigation**
+  - Vertical icon-based navigation
+  - Sections: About, Media, Highlights, Experience
+  - Mobile-friendly, collapses on smaller screens
+
+- **Profile Header**
+  - Static avatar
+  - Name and location display
+  - Optional verification badge
+
+- **Tabbed Content Area**
+  - Default section: **Experience**
+  - Sub-tabs: All, Performance, Training, Accolades, Education, Job Titles, Commissions, Masterclass
+
+- **Experience Cards**
+  - Shows title, organization, location/date
+  - Includes badge/icon
+
+- **Detailed Program Panel**
+  - Opens on card click
+  - Displays program name, role, institution, location, date, and tags
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Styling**: Tailwind CSS
+- **Icons**: React Icons
+- **APIs**:
+  - https://jsonplaceholder.typicode.com/users/1
+  - https://jsonplaceholder.typicode.com/posts?userId=1
+
+---
+
+## 🧪 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

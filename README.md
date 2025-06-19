@@ -6,7 +6,7 @@ A responsive, role-based Professional Profile Dashboard built with **Next.js**, 
 
 [https://interview-nine-pink.vercel.app/](https://interview-nine-pink.vercel.app/)
 
-> _Note: This project was intended to be deployed on Netlify, but due to persistent signup issues (see screenshot), it has been deployed on **Vercel**, which is officially supported by the creators of Next.js._
+> _Note: This project was intended to be deployed on Netlify, but due to persistent signup issues, it has been deployed on **Vercel**, which is officially supported by the creators of Next.js._
 
 ---
 

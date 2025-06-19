@@ -56,7 +56,7 @@ A responsive, role-based Professional Profile Dashboard built with **Next.js**, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/usman-bigdaddy/interview.git
 cd YOUR_REPO_NAME
 
 # Install dependencies
